@@ -43,9 +43,9 @@ while True:
     orange = (255, 165, 0)
     green = (0, 255, 0)
     purple = (128,0,128)
-    scroll_image(sense, "/home/pi/ghost.png", 4)
+    scroll_image(sense, "ghost.png", 4)
     sense.show_message("Happy Halloween!", text_colour=orange)
-    scroll_image(sense, "/home/pi/pumpkin.png", 4)
+    scroll_image(sense, "pumpkin.png", 4)
     sense.show_message("Have a spooky time!", text_colour=purple)
-    scroll_image(sense, "/home/pi/monster.png", 4)
+    scroll_image(sense, "monster.png", 4)
 
